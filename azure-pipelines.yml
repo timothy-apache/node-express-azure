@@ -1,6 +1,6 @@
 trigger:
 - master
-- feature
+- develop
 #trigger:
   #branches:
     #include:
