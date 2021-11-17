@@ -1,11 +1,11 @@
-#trigger:
-#- master
-#- feature
 trigger:
-  branches:
-    include:
-    - master
-    - feature 
+- master
+- feature
+#trigger:
+  #branches:
+    #include:
+    #- master
+    #- feature 
 
 pool:
   vmImage: 'Ubuntu-18.04'
