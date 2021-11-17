@@ -2,12 +2,12 @@
 #- master
 #- develop
 trigger:
-branches:
-   include:
-   - master
-   - develop
-   exclude:
-   - dependabot/*
+   branches:
+      include:
+      - master
+      - develop
+      exclude:
+      - dependabot/*
 pool:
   vmImage: 'Ubuntu-18.04'
 
