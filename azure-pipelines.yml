@@ -1,6 +1,6 @@
-trigger:
-- master
-- develop
+#trigger:
+#- master
+#- develop
 #trigger:
   #branches:
     #include:
